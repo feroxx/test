@@ -58,7 +58,7 @@ class IPTVParser:
 ***
 
 > # [![Yayın Kontrolü](https://github.com/feroxx/IPTV_YenirMi/actions/workflows/Kontrol.yml/badge.svg)](https://github.com/feroxx/IPTV_YenirMi/actions/workflows/Kontrol.yml)
-> ### [Kanallar/KekikAkademi.m3u](https://github.com/feroxx/IPTV_YenirMi/blob/main/Kanallar/KekikAkademi.m3u)
+> ### [Kanallar/canlitv.m3u](https://raw.githubusercontent.com/feroxx/test/refs/heads/main/Kanallar/canlitv.m3u)
 
 ***
 
@@ -101,5 +101,5 @@ class IPTVParser:
         self.kanallar_kontrol()
 
 if __name__ == "__main__":
-    parser = IPTVParser("Kanallar/KekikAkademi.m3u")
+    parser = IPTVParser("Kanallar/canlitv.m3u")
     parser.run()
